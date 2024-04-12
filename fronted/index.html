@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p>
+		Consumo de REST-API de Personajes de Disney
+		</p>
+
+		<div>
+			<label> Name </label>
+			<input type="text" id ="name">
+
+		</div>
+		<div>
+		        <label> File name </label>
+			<input type="text" id ="fileName"> 
+		</div>
+		<div>
+			 <label> Image </label>
+			 <input type="text" id ="image">
+		</div>
+
+		<button onclick="postdisnapi()"> POST disneyapi </button>
+
+                <button onclick="getdisnapis()"> GET disneyapis </button>
+
+		<div id="resultado"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="callrestapi.js"></script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
